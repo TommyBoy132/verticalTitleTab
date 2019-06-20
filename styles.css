@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+.box {
+    display: flex;
+    height: 140px;
+    width: 40%;
+    margin: 20px 0 0 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(54, 109, 100, 0.53);
+}
+.vert-title {
+    display: flex;
+    padding: 8px 2px;
+    max-width: 35px;
+    background: lightpink;
+    background-image: linear-gradient(225deg, #ff88f4, rgb(254, 231, 255));
+    box-sizing: border-box;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #c3c3c3;
+    justify-content: center;
+    align-items: center;
+    /* These are the two important properties to create a vertical title tab */
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: center;
+    font-size: 70%;
+}
+.content {
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #43fffa;
+    background-image: linear-gradient(45deg, #43fffa, rgb(185, 255, 174));
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #c3c3c3;
+    text-align: center;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 90%;
+    line-height: 1.4;
+}
